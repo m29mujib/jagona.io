@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(219, 172, 84);
+}
+
+.topbar {
+  background-color: #3c4983;
+  height: 25px;
+  width: 100%;
+}
+
+.topbar p {
+  text-align: center;
+  line-height: 25px;
+  font-family: "poppins";
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: rgb(219, 172, 84);
+  margin: auto;
+}
+
+.header {
+  padding: 20px;
+}
+
+.judul {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  font-family: "Poppins", sans-serif;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  margin-right: 10px;
+  padding-right: 20px;
+  color: #000;
+  font-family: "poppins";
+  font-size: 15px;
+  padding: 8px 8px;
+  box-sizing: border-box;
+}
+
+.header a:hover {
+  background-color: #ccc5c5;
+  border-radius: 3px;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(img/lapangan.jpg);
+  background-size: cover;
+  background-position: 0 -200px;
+}
+
+.thumbnail {
+  text-align: center;
+  line-height: 400px;
+  font-size: 0px;
+  font-family: "poppins";
+  color: #eaeaea;
+  transition: 1.5s;
+}
+
+.container:hover .thumbnail {
+  text-align: center;
+  line-height: 400px;
+  font-size: 25px;
+  font-family: "poppins";
+  color: #eaeaea;
+  transform: rotate3d(360deg);
+}
+
+span {
+  color: rgb(243, 69, 0);
+}
+
+.desc {
+  color: #fff;
+  font-size: 12px;
+  font-family: "poppins";
+}
+
+.container-dua {
+  max-width: 1200px;
+  margin: 0px auto;
+  background-color: rgb(219, 172, 84);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container-dua h1 {
+  font-size: 30px;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container-dua p {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "poppins";
+  margin: 20px;
+}
+
+.kolom-utama {
+  flex: 3;
+  order: 2;
+}
+
+.sidebar-1 {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-1 a {
+  margin: 20px;
+  line-height: 20px;
+  color: rgb(243, 69, 0);
+  text-decoration: none;
+}
+
+.sidebar-1 li {
+  font-size: 14px;
+  font-family: "poppins";
+}
+
+.sidebar-2 {
+  flex: 1;
+  order: 3;
+}
+
+.container-tiga {
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: rgb(219, 172, 84);
+}
+
+.layanan {
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.layanan h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+.layanan p {
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "poppins", Helvetica, sans-serif;
+  text-align: center;
+}
+.layanan.satu {
+  background-color: rgb(147, 170, 147);
+  font-family: "poppins";
+}
+
+.layanan.dua {
+  background-color: rgb(155, 99, 82);
+  font-family: "poppins";
+}
+
+.layanan.tiga {
+  background-color: rgb(204, 120, 23);
+  font-family: "poppins";
+}
+
+.container-empat {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(219, 172, 84);
+}
+
+.thumbnail2 {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.thumbnail2 img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.container-lima {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.card {
+  width: 100%;
+  background-color: #eaeaea;
+  border: 1px solid #6a6a6a;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  flex: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card .header {
+  background-color: #6a6a6a;
+  height: 150px;
+  font-size: 30px;
+  line-height: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "poppins";
+  color: #fff;
+}
+
+.card .content {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #6a6a6a;
+  color: #fff;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #ccc5c5;
+  color: #000;
+}
+
+.footer {
+  background-color: #3c4983;
+  max-width: 100%;
+  height: 80px;
+}
+
+.footer p {
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
+  font-family: "poppins";
+  font-size: 13px;
+}
+
+/* responsive */
+
+@media (min-width: 600px) {
+  .container-tiga {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .layanan {
+    width: 30%;
+  }
+
+  .thumbnail2 {
+    width: 25%;
+  }
+
+  .container-dua {
+    display: flex;
+  }
+
+  .container-lima {
+    display: flex;
+  }
+}
