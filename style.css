@@ -13,6 +13,8 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  position: fixed;
+  z-index: 9999;
 }
 
 .topbar p {
@@ -29,7 +31,8 @@ body {
 }
 
 .header {
-  padding: 20px;
+  padding-top: 30px;
+  padding-left: 15px;
 }
 
 .judul {
@@ -42,6 +45,7 @@ body {
 .header ul li {
   display: inline-block;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header a {
@@ -206,6 +210,9 @@ span {
 
 .thumbnail2 {
   width: 50%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 10px;
 }
 
@@ -225,7 +232,7 @@ span {
   border: 1px solid #6a6a6a;
   border-radius: 10px;
   overflow: hidden;
-  margin: 10px;
+  margin-top: 10px;
   flex: 1;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -277,6 +284,7 @@ button:hover {
   font-family: "poppins";
   font-size: 13px;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .website {
@@ -303,6 +311,7 @@ button:hover {
   max-width: 380px;
   padding: 10px;
   border-right: 2px solid white;
+  box-sizing: border-box;
 }
 
 .kiri a {
@@ -313,18 +322,34 @@ button:hover {
 .tengah {
   text-align: center;
   max-width: 380px;
-
+  box-sizing: border-box;
   padding: 10px;
 }
+
+.tengah button {
+  background-color: #1e8d14;
+  color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: "poppins";
+  box-sizing: border-box;
+}
+
 .tengah img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
 }
 
+.tengah a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .kanan {
   max-width: 380px;
   padding: 10px;
+  box-sizing: border-box;
   border-left: 2px solid white;
 }
 
@@ -334,7 +359,7 @@ button:hover {
 
 /* responsive */
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .container-tiga {
     display: flex;
     justify-content: space-between;
